@@ -9,6 +9,8 @@ About files:
 
 --Initially we suspect steel contaminaton in sample. Steel 315/316 has specific amount of Mo, Ni, Cr, therefore, my code shows specific interest on thses four elements, though there are totaly 29 elements in each test;
 
+--femonicr_assoc.py: association rule to analyzes steel contamination, it analyzes the relation between Mo/Ni ratio, Mo/Cr ratio, Ni/Cr ratio and Fe%
+
 --femonicr_plotwclass.py: builds a python class that plots histogram, scatter plot of element of choice from 29 of them; it gives a quick view of data trending of each element
 
 --femonicr_analysis.py: this combines all other pythons in this repository, and perform a specific analysis.
